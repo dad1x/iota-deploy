@@ -18,3 +18,11 @@ along with latest RocksDB automatically.
 * MONITOR-iri.sh
   * Monitor IRI status and summarize system resources.
   * Uage: `MONITOR-iri.sh`
+
+## Flow
+
+#### Build IRI & RocksDB
+* `$ git clone https://github.com/deviceproof/iota-deploy`
+* `$ cp iota-deploy/scripts/iri/BUILD-.rocksdbsh .`
+* `$ BUILD-rocksdb.sh [preferable_rocksDB_platform]`
+* `$ ./BUILD-rocksdb.sh`
